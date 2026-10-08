@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+<meta name="description" content="{{ site.description | escape }}">
+<link rel="stylesheet" href="{{ '/assets/workshop.css' | relative_url }}">
+</head>
+<body><a class="skip" href="#main">Skip to content</a>
+<header class="header"><div class="wrap header-inner"><a class="brand" href="{{ '/' | relative_url }}"><span class="brand-mark" aria-hidden="true">CN</span><span>Clinical NLP <b>2027</b><small>Hosted by Leiden University</small></span></a>
+<nav aria-label="Main navigation"><a href="{{ '/' | relative_url }}">Home</a><a href="{{ '/abstracts/' | relative_url }}">Abstracts</a><a href="{{ '/programme/' | relative_url }}">Programme</a><a href="{{ '/venue/' | relative_url }}">Venue</a><a href="{{ '/organisers/' | relative_url }}">Organisers</a><a class="nav-button" href="{{ '/registration/' | relative_url }}">Registration</a></nav></div></header>
+<main id="main">{{ content }}</main>
+<footer><div class="wrap footer-inner"><div><strong>{{ site.data.workshop.name }}</strong><p>5 February 2027 · Leiden University</p></div><div><a href="{{ '/previous-editions/' | relative_url }}">Previous editions</a><a href="{{ '/code-of-conduct/' | relative_url }}">Code of conduct</a>{% if site.data.workshop.contact_email != '' %}<a href="mailto:{{ site.data.workshop.contact_email }}">Contact</a>{% endif %}</div></div></footer>
+</body></html>
