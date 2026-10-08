@@ -1,0 +1,6 @@
+---
+layout: workshop
+title: Organisers & contact
+permalink: /organisers/
+---
+<section class="page-header"><div class="wrap"><p class="eyebrow">CLINICAL NLP · LEIDEN 2027</p><h1>Organisers & contact</h1></div></section><section class="wrap page-content"><p>Hosted by <strong>Leiden University</strong>.</p><ul class="people">{% for name in site.data.workshop.organisers %}<li><strong>{{ name }}</strong><small>[Affiliation / profile link to be added]</small></li>{% endfor %}</ul><h2>Contact</h2>{% if site.data.workshop.contact_email != '' %}<p>For questions, please contact <a href="mailto:{{ site.data.workshop.contact_email }}">{{ site.data.workshop.contact_email }}</a>.</p>{% else %}<div class="placeholder">[Add the workshop contact email in _data/workshop.yml.]</div>{% endif %}<h2>Sponsors & partners</h2><p>[Add confirmed sponsors, approved logos and website links.]</p></section>

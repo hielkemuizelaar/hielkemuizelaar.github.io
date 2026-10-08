@@ -1,0 +1,34 @@
+title: The Dutch Clinical NLP Workshop 2027
+description: "The Dutch Clinical NLP Workshop, hosted by Leiden University on 5 February 2027 in Leiden, the Netherlands."
+url: https://hielkemuizelaar.github.io
+baseurl: ''
+lang: en
+permalink: pretty
+plugins:
+  - jekyll-sitemap
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+  - scripts/
+  - not-pure-poole.gemspec
+  - _site/
+  - _site versie 27 maart.zip
+  - _posts/
+  - about.md
+  - categories.md
+  - dates.md
+  - tags.md
+  - practical-information.html
+  - program.html
+  - program/
+  - abstracts/
+  - sponsors.html
+  - sponsor_logos/
+  - liacs.jpg
+  - lipsius.jpeg
+  - logo_placeholder.png
+  - lucdh.png
+  - lucl.png
+  - ul.jpg
