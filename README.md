@@ -36,3 +36,9 @@ Open http://localhost:4000. Check both desktop and mobile widths.
 Merge the reviewed branch into the branch selected under GitHub Settings → Pages. Check the existing Pages publishing source before merging. The old CLIN files remain in git but are excluded from the new Jekyll build; `_site` is generated output and should not be edited or used as an old deployment source.
 
 For a custom domain, configure it in Pages settings and update DNS at the domain provider. Update `url` in `_config.yml` to the final domain.
+
+## Sponsors and visual styling
+
+Edit `_data/sponsors.yml`: replace `[]` with entries containing `name`, `logo`, and optional `url` (see the commented example). Put approved sponsor logos in `assets/logos/`. With no entries, three clearly labelled placeholders appear on the homepage.
+
+The photographic backdrop uses the existing repository’s Leiden image, copied to `assets/images/leiden-background.jpg`. It is decorative and does not identify the workshop venue. The layout uses rounded corners, subtle hover transitions and progressive scroll reveals. Motion is disabled when reduced motion is requested; all content remains available without JavaScript.

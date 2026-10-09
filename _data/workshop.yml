@@ -1,10 +1,10 @@
-name: The Dutch Clinical NLP Workshop
+name: Dutch Clinical NLP Workshop
 year: 2027
 host: Leiden University
 date_label: Friday, 5 February 2027
 date_iso: '2027-02-05'
 city: Leiden, the Netherlands
-venue: Venue to be announced
+venue: Academiegebouw, Rapenburg 73
 contact_email: ''
 registration_url: ''
 submission_url: ''
@@ -14,3 +14,4 @@ organisers:
   - Yee Man Ng
   - Kiana Shahrasbi
   - Hielke Muizelaar
+  - Marco Spruit

@@ -6,8 +6,9 @@
 <link rel="stylesheet" href="{{ '/assets/workshop.css' | relative_url }}">
 </head>
 <body><a class="skip" href="#main">Skip to content</a>
-<header class="header"><div class="wrap header-inner"><a class="brand" href="{{ '/' | relative_url }}"><span class="brand-mark" aria-hidden="true">CN</span><span>Clinical NLP <b>2027</b><small>Hosted by Leiden University</small></span></a>
+<header class="header"><div class="wrap header-inner"><a class="brand" href="{{ '/' | relative_url }}"><img class="brand-seal" src="{{ '/assets/logos/leiden-university-seal.png' | relative_url }}" alt="Leiden University seal" width="291" height="335"><span>Dutch Clinical NLP Workshop<small>DCNLP 2027 · Fourth edition</small></span></a>
 <nav aria-label="Main navigation"><a href="{{ '/' | relative_url }}">Home</a><a href="{{ '/abstracts/' | relative_url }}">Abstracts</a><a href="{{ '/programme/' | relative_url }}">Programme</a><a href="{{ '/venue/' | relative_url }}">Venue</a><a href="{{ '/organisers/' | relative_url }}">Organisers</a><a class="nav-button" href="{{ '/registration/' | relative_url }}">Registration</a></nav></div></header>
 <main id="main">{{ content }}</main>
-<footer><div class="wrap footer-inner"><div><strong>{{ site.data.workshop.name }}</strong><p>5 February 2027 · Leiden University</p></div><div><a href="{{ '/previous-editions/' | relative_url }}">Previous editions</a><a href="{{ '/code-of-conduct/' | relative_url }}">Code of conduct</a>{% if site.data.workshop.contact_email != '' %}<a href="mailto:{{ site.data.workshop.contact_email }}">Contact</a>{% endif %}</div></div></footer>
+<footer><div class="wrap footer-inner"><div class="footer-logo"><img src="{{ '/assets/logos/leiden-university.png' | relative_url }}" alt="Universiteit Leiden" width="1280" height="573"></div><div><strong>{{ site.data.workshop.name }}</strong><p>5 February 2027 · Leiden University</p></div><div><a href="{{ '/previous-editions/' | relative_url }}">Previous editions</a><a href="{{ '/code-of-conduct/' | relative_url }}">Code of conduct</a>{% if site.data.workshop.contact_email != '' %}<a href="mailto:{{ site.data.workshop.contact_email }}">Contact</a>{% endif %}</div></div></footer>
+<script defer src="{{ '/assets/workshop.js' | relative_url }}"></script>
 </body></html>
