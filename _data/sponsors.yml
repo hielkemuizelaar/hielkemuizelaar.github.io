@@ -1,5 +1,6 @@
-# Replace [] below with sponsor entries when confirmed. Example:
+# Sponsor entries, shown in order. Empty "Partner logo" slots are added automatically up to 3.
 # - name: Example sponsor
 #   logo: /assets/logos/example-sponsor.png
 #   url: https://example.org
-[]
+- name: LIACS
+  logo: /assets/logos/liacs.jpg
