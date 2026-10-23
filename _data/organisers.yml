@@ -1,17 +1,17 @@
 # One entry per organiser. Put photos in assets/organisers/ (square, ~400x400px).
 # Leave photo or url empty until available; the page falls back to initials / plain name.
-- name: Marco Spruit
-  photo: '/assets/organisers/marco-spruit.png'
-  url: 'https://healthcampusdenhaag.nl/nl/teamleden/marco-spruit/'
-- name: Armel Lefebvre
-  photo: '/assets/organisers/armel-lefebvre.png'
-  url: 'https://healthcampusdenhaag.nl/nl/teamleden/armel-lefebvre/'
-- name: Bram van Dijk
-  photo: '/assets/organisers/bram-van-dijk.png'
-  url: 'https://healthcampusdenhaag.nl/nl/teamleden/bram-van-dijk/'
 - name: Yee Man Ng
   photo: '/assets/organisers/yee-man-ng.png'
   url: 'https://www.universiteitleiden.nl/en/staffmembers/yee-man-ng#tab-1'
+- name: Bram van Dijk
+  photo: '/assets/organisers/bram-van-dijk.png'
+  url: 'https://healthcampusdenhaag.nl/nl/teamleden/bram-van-dijk/'
+- name: Armel Lefebvre
+  photo: '/assets/organisers/armel-lefebvre.png'
+  url: 'https://healthcampusdenhaag.nl/nl/teamleden/armel-lefebvre/'
+- name: Marco Spruit
+  photo: '/assets/organisers/marco-spruit.png'
+  url: 'https://healthcampusdenhaag.nl/nl/teamleden/marco-spruit/'
 - name: Kiana Shahrasbi
   photo: '/assets/organisers/kiana-shahrasbi.jpg'
   url: 'https://www.universiteitleiden.nl/en/staffmembers/kiana-shahrasbi#tab-1'
