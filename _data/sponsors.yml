@@ -4,6 +4,7 @@
 #   url: https://example.org
 - name: LIACS
   logo: /assets/logos/liacs.jpg
+  url: https://liacs.leidenuniv.nl
 - name: VMBI
   logo: /assets/logos/vmbi.png
   url: https://www.vmbi.nl
